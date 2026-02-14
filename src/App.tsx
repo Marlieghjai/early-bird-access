@@ -20,6 +20,7 @@ const App = () => (
           {/* If you want a specific "Early Bird" page, you'd add it like this:
             <Route path="/early-bird-access" element={<EarlyBird />} /> 
           */}
+          <Route path="/early-bird-access" element={<Index />} />
           <Route path="*" element={<NotFound />} />
         </Routes>
       </HashRouter>
